@@ -1,0 +1,22 @@
+{
+  "name": "kasane-teto-theme",
+  "displayName": "Kasane — Teto Dark Theme",
+  "description": "A deep crimson dark theme inspired by Kasane Teto from UTAU/Vocaloid. Red drills in your editor. 🎵",
+  "version": "1.0.0",
+  "publisher": "M5Dev",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "kasane teto", "vocaloid", "utau", "anime", "red", "crimson"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M5-Dev/kasane-teto-theme"
+  },
+  "galleryBanner": { "color": "#1a0a0a", "theme": "dark" },
+  "contributes": {
+    "themes": [{
+      "label": "Kasane Dark",
+      "uiTheme": "vs-dark",
+      "path": "./themes/kasane-dark-color-theme.json"
+    }]
+  }
+}
